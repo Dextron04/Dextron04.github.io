@@ -1,1 +1,9 @@
 @import "{{ site.theme }}";
+
+.nav-items{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+    font-family: Mont;
+}
