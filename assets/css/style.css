@@ -67,3 +67,89 @@
     color: black;
     transition: 341ms;
 }
+
+/* ###### SKILLS ###### */
+.title{
+    margin-left: 46%;
+    font-size: 30px;
+}
+.row{
+    margin: 1rem 0;
+}
+.item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+.item-text{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 1.3rem;
+    position: relative;
+}
+.item-text span:last-child{
+    position: absolute;
+}
+.item-text .j-40{
+    margin-left: 17%;
+}
+.item-text .j-75{
+    margin-left: 32%;
+}
+.item-text .j-50{
+    margin-left: 22%;
+}
+.item-text .j-60{
+    margin-left: 26%;
+}
+.progress{
+    margin: 0.8rem 0;
+    height: 16px;
+    width: 60%;
+    background-color: grey;
+    overflow: hidden;
+}
+.progress-bar{
+    background: white;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+@keyframes load {
+    from{width: 0%;}
+    to{width: 50%;}
+}
+.progress-bar.j-50{
+    width: 50%;
+    animation: load 2s;
+}
+@keyframes load75 {
+    from{width: 0%;}
+    to{width: 75%;}
+}
+.progress-bar.j-75{
+    width: 75%;
+    animation: load75 2s;
+}
+@keyframes load40 {
+    from{width: 0%;}
+    to{width: 40%;}
+}
+.progress-bar.j-40{
+    width: 40%;
+    animation: load40 2s;
+}
+@keyframes load60 {
+    from{width: 0%;}
+    to{width: 60%;}
+}
+.progress-bar.j-60{
+    width: 60%;
+    animation: load60 2s;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+/* ###### SKILLS ###### */
