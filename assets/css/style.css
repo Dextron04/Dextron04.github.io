@@ -1,4 +1,17 @@
 
+.body{
+    background-color: black;
+    font-family: Mont;
+    color: white;
+}
+
+.nav-bar{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
 .nav-items{
     display: flex;
     flex-wrap: wrap;
