@@ -17,6 +17,14 @@
     background-color: black;
 }
 
+.body-nf {
+    background-color: black;
+    font-family: Nexa;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
 .dev-name {
     font-family: 'Nexa';
     color: white;
