@@ -24,17 +24,29 @@
 }
 
 .nav-items {
+    border:solid 2px #fff;
+    cursor: pointer;
+    border-radius: 0px;
+    color: white;
     text-decoration: none;
-    font-family: Nexa;
-    background-color: white;
-    padding: 2px 2px;
-    color: black;
+    padding: 12px 18px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .nav-items:hover {
-    background-color: black;
-    color: white;
-    transition: 200ms;
+    border:solid 2px #fff;
+    background: #fff;
+    color: #1f1f1f !important;
 }
 
 .main {
