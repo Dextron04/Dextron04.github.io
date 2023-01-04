@@ -10,6 +10,11 @@
     src: url("../fonts/nexa/Nexa-Trial-Book.ttf")
 }
 
+@font-face {
+    font-family: Pacifico;
+    src: url("/fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
 
 
 /* BODY */
@@ -21,7 +26,8 @@
 
 
 .dev-name {
-    font-family: 'Nexa';
+    font-family: 'Pacifico';
+    font-weight: lighter;
     color: white;
     font-size: xx-large;
 }
@@ -148,6 +154,7 @@
 
     .dev-name {
         text-align: center;
+
         font-size: 70px;
         border: solid 2px white;
     }
