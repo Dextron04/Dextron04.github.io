@@ -9,28 +9,26 @@
         <heading>
             <h1 class="dev-name">Tushin Kulshreshtha</h1>
         </heading>
-        <button class="menu-button" id="toggle-button">
+        <button class="menu-button" id="toggle-button" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </button>
         <section class="nav-menu" id="nav-menu">
-            <nav>
-                <a href="../_layouts/NotFound/index.html">Index </a>
-                <a href="NotFound.html">Education</a>
-                <a href="NotFound.html">My Projects</a>
-                <a href="NotFound.html">Achievements</a>
-                <a href="NotFound.html">Work Experience </a>
-                <a href="NotFound.html">Resume</a>
-            </nav>
+                <a href="../_layouts/NotFound/index.html" id="nav-items">Index </a>
+                <a href="NotFound.html" id="nav-items">Education</a>
+                <a href="NotFound.html" id="nav-items">My Projects</a>
+                <a href="NotFound.html" id="nav-items">Achievements</a>
+                <a href="NotFound.html" id="nav-items">Work Experience </a>
+                <a download href="/assets/Resume/Tushin_Prof_Resume_new.pdf" id="nav-items">Resume</a>
         </section>      
         <nav class="nav-bar">
             <a href="../_layouts/NotFound/index.html" class="nav-items">Index </a>&ensp;
-            <a href="NotFound.html" class="nav-items" id="nav-items">Education</a> &ensp;
+            <a href="NotFound.html" class="nav-items">Education</a> &ensp;
             <a href="NotFound.html" class="nav-items">My Projects</a> &ensp;
             <a href="NotFound.html" class="nav-items">Achievements</a>&ensp;
             <a href="NotFound.html" class="nav-items">Work Experience </a>&ensp;
-            <a href="NotFound.html" class="nav-items">Resume</a>&ensp;
+            <a download href="/assets/Resume/Tushin_Prof_Resume_new.pdf" class="nav-items" id="download-button" onclick="btn_active()">Resume</a>&ensp;
         </nav>
         <br>
     </header>
