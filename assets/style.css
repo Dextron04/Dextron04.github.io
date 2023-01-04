@@ -113,6 +113,13 @@
     }
 }
 
+.current-info{
+    display: flex;
+    font-family: Nexa;
+    color: white;
+    justify-content: center;
+}
+
 /* END HAND WAVE ANIMATION */
 
 /* END OF BODY */
