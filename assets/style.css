@@ -20,8 +20,28 @@
 /* BODY */
 
 .body {
-    background-image: url("/assets/istockphoto.jpg");
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg,
+            rgba(59, 173, 227, 1) 0%,
+            rgba(87, 111, 230, 1) 25%,
+            rgba(152, 68, 183, 1) 51%,
+            rgba(255, 53, 127, 1) 100%);
+    animation: AnimateBG 20s ease infinite;
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50% }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 
@@ -113,11 +133,12 @@
     }
 }
 
-.current-info{
+.current-info {
     display: flex;
-    font-family: Nexa;
+    font-family: 'Courier New', Courier, monospace;
     color: white;
     justify-content: center;
+    text-align: center;
 }
 
 /* END HAND WAVE ANIMATION */
@@ -140,6 +161,7 @@
 #nav-menu {
     display: none;
 }
+
 
 @media screen and (max-width: 1100px) {
 
