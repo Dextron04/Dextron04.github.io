@@ -202,9 +202,8 @@
     }
 
     .main {
-        font-size: large;
         text-align: center;
-        font-size: 70px;
+        font-size: 110px;
     }
 
     .bar1,
@@ -240,6 +239,7 @@
         animation: slideDown 0.2s ease-in-out;
         display: grid;
         margin-top: 50px;
+        size: 40px;
     }
 
     #nav-items {
@@ -267,5 +267,12 @@
         border: solid 2px #fff;
         background: #fff;
         color: #1f1f1f !important;
+    }
+
+    .current-info{
+        font-size: 25px;
+    }
+    .tk{
+        font-size: 20px;
     }
 }
